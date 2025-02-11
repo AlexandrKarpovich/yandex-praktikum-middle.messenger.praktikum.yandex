@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "vite build && node server.cjs",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
     "vite": "^6.1.0"
   },
   "dependencies": {
+    "express": "^4.21.2",
     "handlebars": "^4.7.8"
   }
 }
