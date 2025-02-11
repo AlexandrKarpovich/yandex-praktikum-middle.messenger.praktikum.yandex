@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "vite build && node server.cjs",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "handlebars": "^4.7.8",
     "sass": "^1.84.0",
     "typescript": "~5.7.2",
-    "vite": "^6.1.0",
-    "vite-plugin-handlebars": "^2.0.0"
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "handlebars": "^4.7.8"
   }
 }

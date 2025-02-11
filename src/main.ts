@@ -1,4 +1,9 @@
 import './style.css'
+// import Handlebars from 'handlebars';
+// import * as Component from './components';
+// import * as Pages from './pages';
+
+
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
